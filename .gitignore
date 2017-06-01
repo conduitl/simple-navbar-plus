@@ -1,3 +1,6 @@
+src/app/**/*.js
+src/app/**/*.map
+node_modules
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
