@@ -5,11 +5,15 @@ import { CoreModule } from './core/core.module';
 import { ProjectCenterModule } from './project-center/project-center.module';
 
 import { AppComponent }   from './app.component';
+
+import { AppRoutingModule } from './app-routing.module';
+
 @NgModule({
   imports:      [ 
     BrowserModule,
     CoreModule,
-    ProjectCenterModule
+    ProjectCenterModule,
+    AppRoutingModule
   ],
   declarations: [ AppComponent ],
   bootstrap:    [ AppComponent ]
