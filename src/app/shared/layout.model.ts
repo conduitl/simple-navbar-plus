@@ -9,7 +9,7 @@ export class ColumnMap {
     private _header: string;
     private _format: string;
     alternativeKeys?: string[];
-constructor ( settings ) {
+    constructor ( settings: ColumnSetting ) {
         this.primaryKey = settings.primaryKey;
         this.header = settings.header;
         this.format = settings.format;
